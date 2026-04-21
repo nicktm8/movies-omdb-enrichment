@@ -1,6 +1,7 @@
 import pandas as pd
+from config import INPUT_FILE
 
-def extract(file_path):
+def extract(file_path=INPUT_FILE):
     try:
         data = pd.read_csv(file_path)
         data.columns = data.columns.str.strip().str.lower()
