@@ -6,8 +6,15 @@ def extract(file_path=INPUT_FILE):
         data = pd.read_csv(file_path)
         data.columns = data.columns.str.strip().str.lower()
         data = data.rename(columns={"release_year": "year"})
-        print(f"✅ Loaded {len(data)} movies from '{file_path}'")
-    
+        
+        print(f"\n✅ Loaded {len(data)} movies from '{file_path}'")
+        print("-----------------------------")
+        
+        # Initialize new columns for enriched data
+        data['imdb_rating'] = ''
+        data['actors'] = ''
+        data['imdb_votes'] = ''
+        
         return data
     
     except FileNotFoundError:
