@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<movies>
+  <movie title="Avatar: The Way of Water">
+    <year>2022</year>
+    <genre>Action, Adventure, Sci-Fi</genre>
+    <director>James Cameron</director>
+    <country>USA</country>
+    <duration>192</duration>
+    <imdb_rating>7.5</imdb_rating>
+    <actors>Sam Worthington, Zoe Saldaña, Sigourney Weaver</actors>
+    <imdb_votes>601,100</imdb_votes>
+  </movie>
+  <movie title="Spider-Man: No Way Home">
+    <year>2021</year>
+    <genre>Action, Adventure, Superhero</genre>
+    <director>Jon Watts</director>
+    <country>USA</country>
+    <duration>148</duration>
+    <imdb_rating>8.1</imdb_rating>
+    <actors>Tom Holland, Zendaya, Benedict Cumberbatch</actors>
+    <imdb_votes>1,016,161</imdb_votes>
+  </movie>
+  <movie title="Dune">
+    <year>2021</year>
+    <genre>Sci-Fi, Adventure</genre>
+    <director>Denis Villeneuve</director>
+    <country>USA</country>
+    <duration>155</duration>
+    <imdb_rating>8.0</imdb_rating>
+    <actors>Timothée Chalamet, Rebecca Ferguson, Zendaya</actors>
+    <imdb_votes>1,038,179</imdb_votes>
+  </movie>
+  <movie title="Encanto">
+    <year>2021</year>
+    <genre>Animation, Musical</genre>
+    <director>Jared Bush, Byron Howard</director>
+    <country>USA</country>
+    <duration>99</duration>
+    <imdb_rating>7.2</imdb_rating>
+    <actors>Stephanie Beatriz, María Cecilia Botero, John Leguizamo</actors>
+    <imdb_votes>293,893</imdb_votes>
+  </movie>
+  <movie title="Minari">
+    <year>2020</year>
+    <genre>Drama</genre>
+    <director>Lee Isaac Chung</director>
+    <country>USA</country>
+    <duration>115</duration>
+    <imdb_rating>7.4</imdb_rating>
+    <actors>Steven Yeun, Han Ye-ri, Alan Kim</actors>
+    <imdb_votes>105,340</imdb_votes>
+  </movie>
+  <movie title="Promising Young Woman">
+    <year>2020</year>
+    <genre>Crime, Drama, Thriller</genre>
+    <director>Emerald Fennell</director>
+    <country>UK, USA</country>
+    <duration>113</duration>
+    <imdb_rating>7.5</imdb_rating>
+    <actors>Carey Mulligan, Bo Burnham, Alison Brie</actors>
+    <imdb_votes>248,919</imdb_votes>
+  </movie>
+  <movie title="The Father">
+    <year>2020</year>
+    <genre>Drama</genre>
+    <director>Florian Zeller</director>
+    <country>UK, France</country>
+    <duration>97</duration>
+    <imdb_rating>8.2</imdb_rating>
+    <actors>Anthony Hopkins, Olivia Colman, Mark Gatiss</actors>
+    <imdb_votes>240,885</imdb_votes>
+  </movie>
+  <movie title="Another Round">
+    <year>2020</year>
+    <genre>Comedy, Drama</genre>
+    <director>Thomas Vinterberg</director>
+    <country>Denmark</country>
+    <duration>117</duration>
+    <imdb_rating>7.7</imdb_rating>
+    <actors>Mads Mikkelsen, Thomas Bo Larsen, Magnus Millang</actors>
+    <imdb_votes>223,771</imdb_votes>
+  </movie>
+  <movie title="Licorice Pizza">
+    <year>2021</year>
+    <genre>Comedy, Drama, Romance</genre>
+    <director>Paul Thomas Anderson</director>
+    <country>USA</country>
+    <duration>133</duration>
+    <imdb_rating>7.1</imdb_rating>
+    <actors>Will Angarola, Griff Giacchino, James Kelley</actors>
+    <imdb_votes>155,060</imdb_votes>
+  </movie>
+  <movie title="King Richard">
+    <year>2021</year>
+    <genre>Biography, Drama, Sport</genre>
+    <director>Reinaldo Marcus Green</director>
+    <country>USA</country>
+    <duration>144</duration>
+    <imdb_rating>7.5</imdb_rating>
+    <actors>Will Smith, Aunjanue Ellis-Taylor, Jon Bernthal</actors>
+    <imdb_votes>169,049</imdb_votes>
+  </movie>
+</movies>
