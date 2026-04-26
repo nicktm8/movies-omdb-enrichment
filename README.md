@@ -41,6 +41,7 @@ movies-omdb-enrichment/
 │   ├── load.py                     # XML export
 │   └── analysis.py                 # Sorting and top 10 display
 │
+├── config.example.py               # Safe config template (no secrets)
 ├── requirements.txt
 ├── README.md
 └── .gitignore
