@@ -10,14 +10,16 @@ def transform(csv_data):
         omdb_data = get_movie_data(title, year)
         
         if omdb_data is not None:
-            row['imdb_rating'] = omdb_data['imdb_rating']
+            try:
+                row['imdb_rating'] = float(omdb_data['imdb_rating'])
+            except ValueError:
+                row['imdb_rating'] = 0.0
+                
             row['actors'] = omdb_data['actors']
             row['imdb_votes'] = omdb_data['imdb_votes']
-
-            print(f"✅ Enriched: {title} ({year})")
-            
+   
         else:
-            row["imdb_rating"] = "N/A"
+            row["imdb_rating"] = 0.0
             row["actors"] = "N/A"
             row["imdb_votes"] = "N/A"
         
