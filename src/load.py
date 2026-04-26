@@ -15,6 +15,7 @@ def save_to_xml(data, file_path=OUTPUT_FILE):
         elem_cols=['year', 'genre', 'director', 'country', 'duration', 'imdb_rating', 'actors', 'imdb_votes']
     )
         print(f"✅ Data successfully saved to '{file_path}'")
+        print("================================")
         
     except Exception as e:
         print(f"❌ Error saving data to XML: {e}")

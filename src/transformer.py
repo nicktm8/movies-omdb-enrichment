@@ -1,10 +1,7 @@
 from omdb_client import get_movie_data
 
-
-
 def transform(csv_data):
-    movies = []
-    
+    result = []
     
     for _, row in csv_data.iterrows():
         title = row['title']
@@ -18,13 +15,13 @@ def transform(csv_data):
             row['imdb_votes'] = omdb_data['imdb_votes']
 
             print(f"✅ Enriched: {title} ({year})")
-            print("-----------------------------")
+            
         else:
             row["imdb_rating"] = "N/A"
             row["actors"] = "N/A"
             row["imdb_votes"] = "N/A"
         
+        result.append(row)
         print("-----------------------------")
-        movies.append(row)
-    
-    return movies
+        
+    return result

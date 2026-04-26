@@ -10,7 +10,7 @@ def get_movie_data(title, year, api_key=API_KEY):
     }
     response = requests.get(url, params=parameters, timeout=4)
     
-    print(f"Requesting: {title} ({year})")
+    print(f"❓ Requesting: {title} ({year})")
     
     if response.status_code == 200:
         data = response.json()
