@@ -1,4 +1,5 @@
 from omdb_client import get_movie_data
+import pandas as pd
 
 def transform(csv_data):
     result = []
@@ -26,4 +27,4 @@ def transform(csv_data):
         result.append(row)
         print("-----------------------------")
         
-    return result
+    return pd.DataFrame(result)
