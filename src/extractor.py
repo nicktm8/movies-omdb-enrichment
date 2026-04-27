@@ -10,11 +10,6 @@ def extract(file_path=INPUT_FILE):
         print(f"\n✅ Loaded {len(data)} movies from '{file_path}'")
         print("-----------------------------")
         
-        # Initialize new columns for enriched data
-        data['imdb_rating'] = ''
-        data['actors'] = ''
-        data['imdb_votes'] = ''
-        
         return data
     
     except FileNotFoundError:
