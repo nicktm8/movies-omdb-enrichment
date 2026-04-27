@@ -3,9 +3,8 @@ import pandas as pd
 
 def save_to_xml(data, file_path=OUTPUT_FILE):
     try:
-        df = pd.DataFrame(data)
         
-        df.to_xml(
+        data.to_xml(
         file_path,
         parser='etree',
         root_name='movies',
