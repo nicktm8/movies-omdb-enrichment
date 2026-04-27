@@ -1,10 +1,10 @@
 
 def sort_movies_by_rating(movies):
-    sorted_movies = sorted(movies, key=lambda x: x['imdb_rating'], reverse=True)
+    sorted_movies = movies.sort_values(by='imdb_rating', ascending=False)
     
-    print("\n--- TOP 10 movies by IMDb rating ---")
+    print("\n--- TOP 10 movies by IMDb rating ---\n")
     
-    for i, movie in enumerate(sorted_movies[:10], start=1):
-                print(f"{i}. {movie['title']} ({movie['year']}) - IMDb Rating: {movie['imdb_rating']}")
+    for i, (_, movie) in enumerate(sorted_movies.head(10).iterrows(), start=1):
+        print(f"{i}. {movie['title']} ({movie['year']}) - IMDb Rating: {movie['imdb_rating']}")
 
     return sorted_movies
